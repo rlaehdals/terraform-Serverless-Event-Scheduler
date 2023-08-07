@@ -1,4 +1,3 @@
-
 module "scheduler"{
     source = "github.com/rlaehdals/terraform-archive/event-scheduler"
     sns_name = var.sns_name
